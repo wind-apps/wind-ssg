@@ -12,7 +12,8 @@ export default defineApp({
       {rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ],
     meta: [
-      {name: 'description', content: 'A new static site generator, built with next-gen tooling' }
+      {name: 'description', content: 'A new static site generator, built with next-gen tooling' },
+      {property: 'generator', content: 'wind' },
     ]
   }
 })
