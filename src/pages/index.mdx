@@ -4,16 +4,20 @@ title: A new static site generator, built with next-gen tooling
 
 ### Overview
 
-Wind is a new (in-progress) static site generator for Vue - inspired by frameworks like Gridsome, but built on next generation tooling like Vite and `vite-plugin-ssr`.
+Wind is a new (in-progress) static site generator for Vue - inspired by frameworks like Gridsome, but built on next generation
+tooling like Vite and `vite-plugin-ssr`.
 
-It provides similar benefits to other SSG's, but it also differs in that it takes a data-first approach - it supports loading data from multiple sources (CMS's, Ecommerce platforms etc.) into a central store, and allows you to query that store anywhere in your site.
+It provides similar benefits to other SSG's, but it also differs in that it takes a data-first approach - it supports loading data from
+multiple sources (CMS's, Ecommerce platforms etc.) into a central store, and allows you to query that store anywhere in your site
+via a GraphQL data layer.
 
-It also has first-class support for templates, so you can create a single template for a particular content type in the datastore, and Wind will create a page from that template for every single corresponding content type item.
+It also has first-class support for templates, so you can create a single template for a particular content type in the datastore,
+and Wind will create a page from that template for every single corresponding item in that content type.
 
 #### Features Overview
 
-- Single data store
+- Single global data store
+- GraphQL data layer, with support for custom schemas
 - Templates support
-- Pre-rendered data
-- File based and config based routing
+- File based _and_ config based routing
 - Support for both pre-rendered HTML-only pages, and Hydrated/SSR pages
