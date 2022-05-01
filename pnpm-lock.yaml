@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@fontsource/neuton': ^4.5.5
   '@fontsource/open-sans': ^4.5.8
+  '@islands/prism': ^0.1.1
   iles: ^0.7.38
   typescript: ^4.6.4
   vite-plugin-windicss: ^1.8.4
@@ -15,6 +16,7 @@ dependencies:
   '@fontsource/open-sans': 4.5.8
 
 devDependencies:
+  '@islands/prism': 0.1.1
   iles: 0.7.38
   typescript: 4.6.4
   vite-plugin-windicss: 1.8.4
@@ -79,6 +81,13 @@ packages:
     resolution: {integrity: sha512-iB7V0foFDRxuJBM1mihVaqQbnpU3CBl0YALXh0L+e/qkAXgPR0CAckPQ3eHmpS3756cTE8hxcbCAR+B7OG0NOg==}
     dependencies:
       '@islands/hydration': 0.3.8
+    dev: true
+
+  /@islands/prism/0.1.1:
+    resolution: {integrity: sha512-kTkQo/qBfgIXeb0unuEazCZEVyWnuIJX81j/QSqjQliX5MAlg/f6THJUJVyQvgKcXipR/TkQutiBXoGXRz208w==}
+    dependencies:
+      prismjs: 1.28.0
+      unist-util-visit: 4.1.0
     dev: true
 
   /@mdx-js/mdx/2.1.0:
@@ -1855,6 +1864,11 @@ packages:
       nanoid: 3.3.3
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: true
+
+  /prismjs/1.28.0:
+    resolution: {integrity: sha512-8aaXdYvl1F7iC7Xm1spqSaY/OJBpYW3v+KJ+F17iYxvdc8sfjW194COK5wVhMZX45tGteiBQgdvD/nhxcRwylw==}
+    engines: {node: '>=6'}
     dev: true
 
   /property-information/6.1.1:
