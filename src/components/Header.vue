@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 font="display" text="true-gray-400">{{ title }}</h1>
+    <h1 font="display" text="true-gray-400 2xl">{{ title }}</h1>
   </div>
 </template>
 

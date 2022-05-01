@@ -2,7 +2,7 @@
   <div bg="dark-500">
     <div container="~" m="auto" h="min-screen" flex="~ row">
       <header w="1/3" m="auto">
-        <h1 font="serif" text="uppercase 5xl green-500">Wind</h1>
+        <h1 font="serif" text="uppercase 8xl green-500">Wind</h1>
 
         <div m="t-6">
           <Header :title="$frontmatter.title" />

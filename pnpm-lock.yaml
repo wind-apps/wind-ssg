@@ -1,18 +1,22 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@fontsource/neuton': ^4.5.5
+  '@fontsource/open-sans': ^4.5.8
   iles: ^0.7.38
   typescript: ^4.6.4
-  vite-plugin-fonts: ^0.3.0
   vite-plugin-windicss: ^1.8.4
   vitest: 0.10.0
   vue-tsc: ^0.34.11
   windicss: ^3.5.1
 
+dependencies:
+  '@fontsource/neuton': 4.5.5
+  '@fontsource/open-sans': 4.5.8
+
 devDependencies:
   iles: 0.7.38
   typescript: 4.6.4
-  vite-plugin-fonts: 0.3.0
   vite-plugin-windicss: 1.8.4
   vitest: 0.10.0
   vue-tsc: 0.34.11_typescript@4.6.4
@@ -29,6 +33,14 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dev: true
+
+  /@fontsource/neuton/4.5.5:
+    resolution: {integrity: sha512-jbeUkQURJE4SGxqjFX289DeGvqXmlXcA4FxhF9e8mKcl2xeksbh9hhBpGsKnjDv+DRNbixVb5vKf9+c2IglXcA==}
+    dev: false
+
+  /@fontsource/open-sans/4.5.8:
+    resolution: {integrity: sha512-3b94XDdRLqL7OlE7OjWg/4pgG825Juw8PLVEDm6h5pio0gMU89ICxfatGxHsBxMGfqad+wnvdmUweZWlELDFpQ==}
+    dev: false
 
   /@islands/hydration/0.3.8:
     resolution: {integrity: sha512-3cjMM0Zk/AiBq0uPc2rjUsT2qNrsAvdS8MJvLHqNAnKf0BdWrqesdOJLCUHmqFqR1GmIElzUN+MoS7+9VPTr8A==}
@@ -2229,14 +2241,6 @@ packages:
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.2
       vfile-message: 3.1.2
-    dev: true
-
-  /vite-plugin-fonts/0.3.0:
-    resolution: {integrity: sha512-ziKf3859WraLHKO/32hzyH8GSzmzVPyIPoxU3TXAkTRMzarjVuTVABIwJXTvV99Lzhwx2GvQzxKGmPDazHeDqQ==}
-    peerDependencies:
-      vite: ^2.0.0
-    dependencies:
-      fast-glob: 3.2.11
     dev: true
 
   /vite-plugin-windicss/1.8.4:
