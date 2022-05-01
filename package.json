@@ -2,7 +2,7 @@
   "name": "wind-docs",
   "version": "0.0.0",
   "scripts": {
-    "develop": "iles dev --open",
+    "develop": "iles dev",
     "build": "iles build",
     "preview": "iles preview --open --port 5050",
     "test": "iles test",
